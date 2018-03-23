@@ -31,14 +31,6 @@ public class U1 extends Rocket {
     }
 
     /**
-     * Returns static count of U1 objects created
-     * @return the static count of U1 objects
-     */
-    public static int getCount() {
-        return count;
-    }
-
-    /**
      * Returns the rocket ID number
      * @return the rocket ID number
      */

@@ -46,7 +46,7 @@ public class Simulation {
             U1 u1 = new U1();
 
             if (Main.VERBOSE) {
-                System.out.println("  U1 rocket #" + U1.getCount());
+                System.out.println("  U1 rocket #" + u1.getId());
                 System.out.println("  -----------------------------");
             }
 
@@ -85,7 +85,7 @@ public class Simulation {
             U2 u2 = new U2();
 
             if (Main.VERBOSE) {
-                System.out.println("  U2 rocket #" + U2.getCount());
+                System.out.println("  U2 rocket #" + u2.getId());
                 System.out.println("  -----------------------------");
             }
 
